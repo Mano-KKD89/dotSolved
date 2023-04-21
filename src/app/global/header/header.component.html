@@ -1,0 +1,17 @@
+<div class="header">
+  <div class="container">
+    <div class="head-layout">
+      <div class="title-name">{{'header.title' | translate }}</div>
+      <div class="nav-links">
+        <a routerLink="/lock" routerLinkActive="active">{{'header.dashboard' | translate }}</a>
+        <a routerLink="/auth/register" routerLinkActive="active">{{'header.register' | translate }}</a>
+        <a routerLink="/auth/login" routerLinkActive="active">{{'header.login' | translate }}</a>
+        <a routerLink="/lock" routerLinkActive="active">{{'header.lock' | translate }}</a>
+        <button type="button" title="French" class="btn lang-btn btn-sm btn-outline-primary ml-2" (click)="changeLanguage('fr')"
+          [class.active]="translateService.currentLang === 'fr'">FR </button>
+        <button type="button" title="English" class="btn btn-sm btn-outline-primary" (click)="changeLanguage('en')"
+          [class.active]="!translateService.currentLang || translateService.currentLang === 'en'">EN</button>
+      </div>
+    </div>
+  </div>
+</div>

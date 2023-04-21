@@ -1,0 +1,11 @@
+<app-header></app-header>
+<div class="main-layout opt-bg">
+   <div class="login">
+     <h2>OTP</h2>
+
+      <ng-otp-input (onInputChange)="onOtpChange($event)"   [config]="{length:4, allowNumbersOnly:true}"></ng-otp-input>
+
+
+   </div>
+</div>
+<app-footer></app-footer>

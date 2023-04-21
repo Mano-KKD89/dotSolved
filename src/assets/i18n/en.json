@@ -1,0 +1,37 @@
+{
+    "loginPage": {
+      "title": "Login",
+      "emailLable": "EMAIL ADDRESS",
+      "passwordLable": "PASSWORD",
+      "subcribe": "Subscrible To Newsletter"
+  },
+  "registerPage": {
+    "title": "DotSolved Employee Panel",
+    "subTitle": "Register for free and experience the dashboard today",
+    "account": "Free Account",
+    "performance": "Awesome Performances",
+    "support": "Global Support",
+    "firstName": "Your First Name",
+    "lastName": "Your Last Name",
+    "company": "Company",
+    "email": "Enter email",
+    "password": "Password",
+    "passwordConfirm": "Password Confirmation",
+    "btnText": "Create Free Account",
+    "description": "Here you can write a feature description for your dashboard, let the users know what is the value that you give them"
+},
+"header": {
+  "title": "DotSolved Employee Panel",
+  "dashboard": "Dashboard",
+  "register": "Register",
+  "login": "Login",
+  "lock": "Lock"
+},
+"footer": {
+  "home": "Home",
+  "company": "Company",
+  "portpolio": "Portpolio",
+  "blog": "Blog"
+}
+  }
+  

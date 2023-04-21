@@ -1,0 +1,15 @@
+
+ <app-header></app-header>
+<div class="main-layout home-bg">
+   <div class="profile">
+    <img src="assets/images/user.jpg">
+    <h2>Tania Andrew</h2>
+    <form [formGroup]="passwordForm" class="form-div">
+        <input  type="password" formControlName="password" class="form-control">      
+       
+        <button type="submit" class="btn btn-lock">Unlock</button>
+
+      </form>
+   </div>
+</div>
+<app-footer></app-footer>

@@ -1,0 +1,37 @@
+{
+  "loginPage": {
+    "title": "Connexion",
+    "emailLable": "ADRESSE E-MAIL",
+    "passwordLable": "MOT DE PASSE",
+    "subcribe": "Abonnement à la newsletter"
+},
+"registerPage": {
+  "title": "DotSolved Panel d'employés",
+  "subTitle": "Inscrivez-vous gratuitement et découvrez le tableau de bord dès aujourd'hui",
+  "account": "Compte gratuit",
+  "performance": "Des performances impressionnantes",
+  "support": "Assistance mondiale",
+  "firstName": "Ton prénom",
+  "lastName": "Votre nom de famille",
+  "company": "Entreprise",
+  "email": "Entrez l'e-mail",
+  "password": "Mot de passe",
+  "passwordConfirm": "Password Confirmation",
+  "btnText": "Créer un compte gratuitement",
+  "description": "Ici, vous pouvez écrire une description des fonctionnalités de votre tableau de bord, faire savoir aux utilisateurs quelle est la valeur que vous leur donnez"
+},
+"header": {
+  "title": "DotSolved Panel d'employés",
+  "dashboard": "Tableau de bord",
+  "register": "Enregistrer",
+  "login": "Connexion",
+  "lock": "Serrure"
+},
+"footer": {
+  "home": "Maison",
+  "company": "Entreprise",
+  "portpolio": "Portefeuille",
+  "blog": "Blog"
+}
+}
+  

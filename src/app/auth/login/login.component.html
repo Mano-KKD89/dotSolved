@@ -1,0 +1,38 @@
+<app-header></app-header>
+<div class="main-layout login-bg">
+   <div class="login">
+     <h2>{{'loginPage.title' | translate }}</h2>
+    <form [formGroup]="loginForm" (ngSubmit)="submit(loginForm.value)"  class="form-div">
+        <div class="form-group">
+            <label>{{'loginPage.emailLable' | translate }}</label>
+            <input  type="text" formControlName="email" class="form-control" placeholder="{{'loginPage.emailLable' | translate }}">     
+       
+       
+       <div class="form_error_blk" *ngIf="
+       loginForm.controls['email'].touched &&
+       loginForm.controls['email'].errors
+     ">
+     <span style="color:red" *ngIf="loginForm.hasError('required', 'email')">
+      Please Enter valid Email
+     </span>
+   </div>
+          </div>
+       
+        <div class="form-group">
+            <label>{{'loginPage.passwordLable' | translate }}</label>
+            <input  type="password" formControlName="password" class="form-control" placeholder="{{'loginPage.passwordLable' | translate }}">     
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+              {{'loginPage.subcribe' | translate }}
+            </label>
+          </div>
+        <button type="submit" [disabled]="!loginForm.valid" class="btn btn-login">{{'loginPage.title' | translate }}</button>
+
+      </form>
+     
+
+   </div>
+</div>
+<app-footer></app-footer>

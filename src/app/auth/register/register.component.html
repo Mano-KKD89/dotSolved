@@ -1,0 +1,71 @@
+<app-header></app-header>
+<div class="main-layout res-bg">
+   <div class="register">
+     <h2>{{'registerPage.title' | translate }}</h2>
+     <p>{{'registerPage.subTitle' | translate }}</p>
+     <div class="bor"></div>
+     <div class="res-lay">
+        <div class="left-res">
+            <div class="left-sub">
+                <div class="img-sub">
+                    <img src="assets/images/user.jpg">
+                </div>
+                <div class="info-sub">
+                    <h3>{{'registerPage.account' | translate }}</h3>
+                    <p>
+                        {{'registerPage.description' | translate }}
+                    </p>
+                </div>
+            </div>
+            <div class="left-sub">
+                <div class="img-sub">
+                    <img src="assets/images/user.jpg">
+                </div>
+                <div class="info-sub">
+                    <h3>{{'registerPage.performance' | translate }}</h3>
+                    <p>
+                        {{'registerPage.description' | translate }}
+                    </p>
+                </div>
+            </div>
+            <div class="left-sub">
+                <div class="img-sub">
+                    <img src="assets/images/user.jpg">
+                </div>
+                <div class="info-sub">
+                    <h3>{{'registerPage.support' | translate }}</h3>
+                    <p>
+                        {{'registerPage.description' | translate }}
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="right-res">
+            <form [formGroup]="registerForm" class="form-div">
+                <div class="form-group">                   
+                    <input  type="text" formControlName="firstName" class="form-control" placeholder="{{'registerPage.firstName' | translate }}">     
+                </div>               
+                <div class="form-group">                  
+                    <input  type="text" formControlName="lastName" class="form-control" placeholder="{{'registerPage.lastName' | translate }}">     
+                </div>
+                <div class="form-group">                   
+                    <input  type="text" formControlName="company" class="form-control" placeholder="{{'registerPage.company' | translate }}">     
+                </div>               
+                <div class="form-group">                  
+                    <input  type="text" formControlName="email" class="form-control" placeholder="{{'registerPage.email' | translate }}">     
+                </div>
+                <div class="form-group">                   
+                    <input  type="password" formControlName="password" class="form-control" placeholder="{{'registerPage.password' | translate }}">     
+                </div>               
+                <div class="form-group">                  
+                    <input  type="password" formControlName="conPassword" class="form-control" placeholder="{{'registerPage.passwordConfirm' | translate }}">     
+                </div>
+                <button type="submit" class="btn btn-login">{{'registerPage.btnText' | translate }}</button>
+        
+              </form>
+        </div>
+     </div>
+  
+   </div>
+</div>
+<app-footer></app-footer>
